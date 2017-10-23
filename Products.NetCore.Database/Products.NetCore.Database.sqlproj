@@ -58,22 +58,22 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
-    <Folder Include="Procedures" />
+    <Folder Include="Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Product.sql" />
-    <Build Include="Procedures\CreateProduct.sql" />
-    <Build Include="Procedures\CreateProductOption.sql" />
-    <Build Include="Procedures\DeleteProduct.sql" />
-    <Build Include="Procedures\DeleteProductOption.sql" />
-    <Build Include="Procedures\RetrieveProductById.sql" />
-    <Build Include="Procedures\RetrieveProductOptions.sql" />
-    <Build Include="Procedures\RetrieveProductOptionsById.sql" />
-    <Build Include="Procedures\RetrieveProductOptionsByProductId.sql" />
-    <Build Include="Procedures\RetrieveProducts.sql" />
-    <Build Include="Procedures\RetrieveProductsByName.sql" />
-    <Build Include="Procedures\UpdateProduct.sql" />
-    <Build Include="Procedures\UpdateProductOption.sql" />
+    <Build Include="Stored Procedures\CreateProduct.sql" />
+    <Build Include="Stored Procedures\CreateProductOption.sql" />
+    <Build Include="Stored Procedures\DeleteProduct.sql" />
+    <Build Include="Stored Procedures\DeleteProductOption.sql" />
+    <Build Include="Stored Procedures\RetrieveProductById.sql" />
+    <Build Include="Stored Procedures\RetrieveProductOptions.sql" />
+    <Build Include="Stored Procedures\RetrieveProductOptionsById.sql" />
+    <Build Include="Stored Procedures\RetrieveProductOptionsByProductId.sql" />
+    <Build Include="Stored Procedures\RetrieveProducts.sql" />
+    <Build Include="Stored Procedures\RetrieveProductsByName.sql" />
+    <Build Include="Stored Procedures\UpdateProduct.sql" />
+    <Build Include="Stored Procedures\UpdateProductOption.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\ProductOption.sql" />
