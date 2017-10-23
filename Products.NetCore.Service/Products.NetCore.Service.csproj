@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Products.NetCore.Entity\Products.NetCore.Entity.csproj" />
+    <ProjectReference Include="..\Products.NetCore.Model\Products.NetCore.Model.csproj" />
+    <ProjectReference Include="..\Products.NetCore.Repository\Products.NetCore.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
